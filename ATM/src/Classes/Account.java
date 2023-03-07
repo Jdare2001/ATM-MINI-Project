@@ -9,6 +9,10 @@ public class Account {
     private int balance;
     private int overdraftAllowed = 0;
 
+    public Account(String id, String password) {
+        this.id = id;
+        this.password = password;
+    }
 
     public String getId() {
         return id;
